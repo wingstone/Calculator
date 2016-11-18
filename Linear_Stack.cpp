@@ -43,7 +43,7 @@ void Linear_Stack::Push(Type a)
 		this->Stack[++this->Top] = a;
 }
 
-void Linear_Stack::Pop(Type b)
+void Linear_Stack::Pop()
 {
 	if(this->Top == -1)
 		cout << " error! can't pop element" << endl;

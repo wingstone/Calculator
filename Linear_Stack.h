@@ -2,7 +2,7 @@
 using namespace std;
 
 #define Max_Size 1000
-typedef int Type;
+typedef char Type;
 #define error -1
 
 class Linear_Stack
@@ -14,7 +14,7 @@ public:
 	bool Stack_Empty();
 	Type Get_Top();
 	void Push(Type a);
-	void Pop(Type b);
+	void Pop();
 	int Stack_Length();
 
 private:
